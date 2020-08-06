@@ -17,7 +17,7 @@ class UserController extends Controller
         $this->response = array();
     } 
 
-    public function store(Request $request){
+    public function view(Request $request){
 
         /*
         * Validate input

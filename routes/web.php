@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('user-details', 'UserController@store');
+Route::get('user-details', 'UserController@view');
